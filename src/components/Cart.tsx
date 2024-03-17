@@ -109,7 +109,7 @@ const Cart = () => {
               />
             </div>
             <div className='text-xl font-semibold'>
-              Your cart is empty
+              No appointments selected
             </div>
             <SheetTrigger asChild>
               <Link
@@ -120,7 +120,7 @@ const Cart = () => {
                   className:
                     'text-sm text-muted-foreground',
                 })}>
-                Add items to your cart to checkout
+                Proceed to checkout after selecting
               </Link>
             </SheetTrigger>
           </div>
