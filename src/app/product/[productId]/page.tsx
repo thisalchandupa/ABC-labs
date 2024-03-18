@@ -110,7 +110,7 @@ const Page = async ({ params }: PageProps) => {
                   className='h-5 w-5 flex-shrink-0 text-green-500'
                 />
                 <p className='ml-2 text-sm text-muted-foreground'>
-                  Eligible for instant delivery
+                  You can contact us for futher details
                 </p>
               </div>
             </section>
@@ -136,7 +136,7 @@ const Page = async ({ params }: PageProps) => {
                     className='mr-2 h-5 w-5 flex-shrink-0 text-gray-400'
                   />
                   <span className='text-muted-foreground hover:text-gray-700'>
-                    30 Day Return Guarantee
+                    {/* 30 Day Return Guarantee */}
                   </span>
                 </div>
               </div>
@@ -149,7 +149,7 @@ const Page = async ({ params }: PageProps) => {
         href='/products'
         query={{ category: product.category, limit: 4 }}
         title={`Similar ${label}`}
-        subtitle={`Browse similar high-quality ${label} just like '${product.name}'`}
+        subtitle={`Browse similar ${label} just like '${product.name}'`}
       />
     </MaxWidthWrapper>
   )
