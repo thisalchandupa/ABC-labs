@@ -42,8 +42,8 @@ export const EmailTemplate = ({
           />
           <Text style={paragraph}>Hi there,</Text>
           <Text style={paragraph}>
-            Welcome to DigitalHippo, the marketplace for
-            high quality digital goods. Use the button below
+            Welcome to ABC Labs, Your go to
+            Lab service. Use the button below
             to {actionLabel}.
           </Text>
           <Section style={btnContainer}>
@@ -54,7 +54,7 @@ export const EmailTemplate = ({
           <Text style={paragraph}>
             Best,
             <br />
-            The DigitalHippo team
+            ABC Labs
           </Text>
           <Hr style={hr} />
           <Text style={footer}>
