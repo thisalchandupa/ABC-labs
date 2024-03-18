@@ -1,6 +1,6 @@
 export const PRODUCT_CATEGORIES = [
   {
-    label: '',
+    label: '123',
     value: 'ui_kits' as const,
     featured: [
       {
@@ -21,7 +21,7 @@ export const PRODUCT_CATEGORIES = [
     ],
   },
   {
-    label: '',
+    label: '123',
     value: 'icons' as const,
     featured: [
       {
