@@ -171,7 +171,7 @@ const Page = () => {
                 onClick={continueAsSeller}
                 variant='secondary'
                 disabled={isLoading}>
-                Continue as seller
+                
               </Button>
             )}
           </div>
